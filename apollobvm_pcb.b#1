@@ -164,6 +164,7 @@
 <hole x="2.5" y="57.5" drill="2.5"/>
 <hole x="95.5" y="57.5" drill="2.5"/>
 <hole x="95.5" y="2.5" drill="2.5"/>
+<text x="7" y="2" size="2.54" layer="1" font="vector" ratio="16">ApolloBVM V1.0</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -1081,10 +1082,9 @@ W = angled&lt;p&gt;
 <contactref element="C2" pad="1"/>
 <contactref element="MASTER" pad="10"/>
 <wire x1="39.5" y1="27.5" x2="43" y2="24" width="0.4064" layer="1"/>
-<wire x1="21" y1="27.5" x2="39.5" y2="27.5" width="0.4064" layer="1"/>
-<wire x1="13" y1="35.5" x2="21" y2="27.5" width="0.4064" layer="1"/>
+<wire x1="21.04" y1="27.5" x2="39.5" y2="27.5" width="0.4064" layer="1"/>
+<wire x1="13" y1="35.54" x2="21.04" y2="27.5" width="0.4064" layer="1"/>
 <wire x1="43" y1="24" x2="43" y2="23.85" width="0.4064" layer="1"/>
-<wire x1="13" y1="35.5" x2="13" y2="35.54" width="0.4064" layer="1"/>
 <wire x1="43.5" y1="46.5" x2="49" y2="52" width="0.4064" layer="16"/>
 <wire x1="22" y1="46.5" x2="43.5" y2="46.5" width="0.4064" layer="16"/>
 <wire x1="22" y1="45" x2="22" y2="46.5" width="0.4064" layer="16"/>
