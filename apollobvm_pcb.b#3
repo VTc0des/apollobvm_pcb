@@ -3,7 +3,7 @@
 <eagle version="9.6.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
@@ -508,17 +508,17 @@ W = angled&lt;p&gt;
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="OthermillDRC_1_64_v2">
-<description language="en">&lt;b&gt;Othermill EAGLE Design Rules v2&lt;/b&gt;&lt;p&gt;DRC for Othermill, 1/64&quot; tool&lt;/p&gt;&lt;b&gt;-- Rules --&lt;/b&gt;&lt;li&gt;8 mil traces&lt;/li&gt;&lt;li&gt;15.7mil clearance&lt;/li&gt;</description>
+<designrules name="OthermillDRC_1_32_v2">
+<description language="en">&lt;b&gt;Othermill EAGLE Design Rules v2&lt;/b&gt;&lt;p&gt;DRC for Othermill, 1/32&quot; tool&lt;/p&gt;&lt;b&gt;-- Rules --&lt;/b&gt;&lt;li&gt;8 mil traces&lt;/li&gt;&lt;li&gt;31.26mil clearance&lt;/li&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="0.39878125mm"/>
-<param name="mdWirePad" value="0.39878125mm"/>
-<param name="mdWireVia" value="0.39878125mm"/>
-<param name="mdPadPad" value="0.39878125mm"/>
-<param name="mdPadVia" value="0.39878125mm"/>
-<param name="mdViaVia" value="0.39878125mm"/>
+<param name="mdWireWire" value="0.794003125mm"/>
+<param name="mdWirePad" value="0.794003125mm"/>
+<param name="mdWireVia" value="0.794003125mm"/>
+<param name="mdPadPad" value="0.794003125mm"/>
+<param name="mdPadVia" value="0.794003125mm"/>
+<param name="mdViaVia" value="0.794003125mm"/>
 <param name="mdSmdPad" value="0mil"/>
 <param name="mdSmdVia" value="0mil"/>
 <param name="mdSmdSmd" value="0mil"/>
@@ -527,8 +527,8 @@ W = angled&lt;p&gt;
 <param name="mdCopperDimension" value="0mil"/>
 <param name="mdDrill" value="1mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="16mil"/>
-<param name="msDrill" value="31mil"/>
+<param name="msWidth" value="8mil"/>
+<param name="msDrill" value="0.8mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -538,16 +538,16 @@ W = angled&lt;p&gt;
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="0mil"/>
-<param name="rlMaxPadTop" value="9999mil"/>
-<param name="rlMinPadInner" value="0mil"/>
-<param name="rlMaxPadInner" value="9999mil"/>
-<param name="rlMinPadBottom" value="0mil"/>
-<param name="rlMaxPadBottom" value="9999mil"/>
-<param name="rlMinViaOuter" value="15mil"/>
-<param name="rlMaxViaOuter" value="25mil"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="10mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
 <param name="rlMinViaInner" value="8mil"/>
-<param name="rlMaxViaInner" value="25mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
 <param name="rlMinMicroViaInner" value="4mil"/>
