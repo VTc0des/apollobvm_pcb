@@ -508,7 +508,7 @@ W = angled&lt;p&gt;
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="OthermillDRC_30_deg_v2">
+<designrules name="OthermillDRC_30_deg_v2 *">
 <description language="en">
 &lt;b&gt;Othermill EAGLE Design Rules v2&lt;/b&gt;
 &lt;p&gt;DRC for Othermill, 30º Engraving Bit&lt;/p&gt;
@@ -532,7 +532,7 @@ W = angled&lt;p&gt;
 <param name="mdCopperDimension" value="0mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
+<param name="msWidth" value="8mil"/>
 <param name="msDrill" value="0.8mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
